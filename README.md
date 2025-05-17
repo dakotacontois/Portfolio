@@ -1,2 +1,2 @@
 # Portfolio
-Professional portfolio combining personal projects with projects completed towards Masters degree
+Projects that I've worked on that went towards my Masters degree

@@ -1,6 +1,6 @@
-Random Forest Classification of Hotel Cancellations
+# Random Forest Classification of Hotel Cancellations
 
-Research Question and Hypothesis:
+# Research Question and Hypothesis:
 The cancellation of hotel reservations is a costly and inevitable expense placed upon the lodging industry. 
  Hotels unable to replace cancelled reservations or fill un-booked rooms lose revenue and profitability. 
  Having the ability to predict if a customer is likely to cancel their reservation gives time to plan ahead 
@@ -10,8 +10,8 @@ The cancellation of hotel reservations is a costly and inevitable expense placed
  null hypothesis would mean accepting the alternative hypothesis that a Random Forest Classifier model could 
  predict hotel cancellations with at least 80% accuracy.
 
-Data Analysis:
-	After all data collection and preparation was completed, the X dataset contained 50 independent variables which 
+# Data Analysis:
+After all data collection and preparation was completed, the X dataset contained 50 independent variables which 
  were included in the final analysis. The data was split into 80% training data and 20% testing data. Three 
  iterations of Random Forest Classifiers were used in order to compare each model and find the best fit for 
  this data set. The first iteration was a standard Random Forest Classifier with all default hyperparameters and 
@@ -35,7 +35,7 @@ were used in the creation of the final Random Forest Classifier model. The resul
 
 Table B.
 
-Study Findings:
+# Study Findings:
 The final model was evaluated using the same metrics as the preliminary model and GridSearchCV model with the addition 
 of calculating the Receiver Operating Characteristic Area Under the Curve (ROC AUC). The result of the final model was 
 an accuracy of 86.63% with all precision, recall, and f-1 scores above 0.80, except for recall of the 1 value for 
@@ -55,7 +55,7 @@ that the model captured 93% of the data under the curve, which shows that this i
 
 Chart A.
 
-Study Limitations:
+# Study Limitations:
 One limitation is that there appears to be some overfitting in the model because the accuracy, precision, recall, and 
 f-1 scores are all much higher for the training model than the testing model (accuracy: 99% and 87%, respectively). 
 Another limitation is that Random Forest Algorithms are computationally expensive with larger datasets, which was 
@@ -67,7 +67,7 @@ contains data for 2016 and 2017 which leads to very limited application without 
 Another limitation is that missing or incorrect data could’ve been imputed with the mean or median instead of being 
 removed from the dataset. 
 
-Proposed Actions:
+# Proposed Actions:
 My recommended course of action and recommendations for further study would be to expand the dataset to include more 
 than only two years of data, examine other possibilities of hyperparameters, and identify if any other machine learning 
 models could perform at a higher level with this dataset than the Random Forest Classifier.
